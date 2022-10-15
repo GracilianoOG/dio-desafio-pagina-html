@@ -7,6 +7,72 @@
     <title>Aprendizados HTML</title>
 </head>
 <body>
+    <h1>Curso: Introdução ao HTML na prática</h1>
+
+    <hr>
+
+    <h2>Sumário</h2>
+    <ul>
+        <li><a href="#estrutura-basica">Estrutura básica de uma página HTML</a></li>
+        <li><a href="#tags-html">Como funcionam as tags HTML</a></li>
+        <li><a href="#tags-html-atributos">Tags HTML e seus atributos</a></li>
+        <li><a href="#">Tags para formatação e decoração de textos</a></li>
+        <li><a href="#">Criando listas</a></li>
+        <li><a href="#">Trabalhando com links</a></li>
+        <li><a href="#">Manipulando as abas do navegador</a></li>
+        <li><a href="#">Ancoragem</a></li>
+        <li><a href="#">Fontes e referências</a></li>
+    </ul>
+
+    <hr>
+
+    <h2 id="estrutura-basica">Estrutura básica de uma página HTML</h2>
+
+    <p>A página inicial do site é, por uma convenção, chamada de `index.html`. Por padrão, diversos sites espalhados pela internet estarão utilizando essa nomenclatura para sua página principal.</p>
+
+    <p>Um site é formado, de basicamente, por três <i>tags principais</i>:</p>
+
+    <ol>
+        <li><strong>html</strong>: marca aquele pedaço de texto como <u><i>HTML</i></u></li>
+        <li><strong>head</strong>: delimita a "cabeça" do site, o conteúdo que não aparece no corpo da página</li>
+        <li><strong>body</strong>: define aquele pedaço como o corpo da página, que conterá títulos, textos, fotos e mais</li>
+    </ol>
+
+    <p>Essas três tags HTML iniciais definem o básico do corpo de uma página HTML, dividindo a parte das configurações da página e a parte que o usuário vê (o corpo da página).</p>
+
+    <h2 id="tags-html">Como funcionam as tags HTML</h2>
+
+    <p>A página é desenvolvida como se fosse um quebra cabeças, cada pedaço tem um lugar a ser encaixado. E se todos os pedaços forem encaixadas da forma correta, o quebra cabeças estará completo e perfeito.</p>
+    <p>As tags HTML podem ser abertas e fechadas, delimitando seu conteúdo entre a abertura e o fechamento. Sendo assim, ao escrever, por exemplo, um parágrafo, o texto estará posicionado no meio dos delimitadores. Uma tag que possui abertura e fechamento é geralmente escrita da seguinte forma: <mark>< tag > conteúdo < /tag ></mark></p>
     
+    <strong>Exemplos de Tags</strong>
+    <ul>
+        <li><strong>< p > Conteúdo < /p ></strong> define um parágrafo;</li>
+        <li><strong>< i > Conteúdo < /i ></strong> deixa o conteúdo em itálico;</li>
+        <li><strong>< strong > Conteúdo < /strong ></strong> aplica efeito de negrito.</li>
+    </ul>
+
+    <p>A maioria das tags são abertas < tag > e fechadas < /tag >, mantendo seu conteúdo entre essa abertura e fechamento. Entretando, há tags que não possuem esse tipo de fechamento. Tags como < img > e < input > já funcionam como abertura e fechamento de si próprias.</p>
+
+    <strong>Exemplos de Tags sem fechamento</strong>
+    <ul>
+        <li><strong>< img ></strong> cria uma imagem na tela;</li>
+        <li><strong>< input ></strong> cria um campo para inserir algum tipo de informação;</li>
+        <li><strong>< hr ></strong> cria uma divisão, uma linha na tela.</li>
+    </ul>
+
+    <h2 id="tags-html-atributos">Tags HTML e seus atributos</h2>
+
+    <p>Tags HTML podem possuir <strong>atributos</strong>, que modificam o seu comportamento, determinam regras e delimitadores, podendo ser aplicadas em diversas situações. Um exemplo seria definir um campo de entrada de informações para que ele aceitasse apenas números.</p>
+    
+    <p>Um atributo pode aceitar um valor, por exemplo, para definir que o <i>tipo</i> é <i>numérico</i>, precisamos passar esse valor ao atributo. Exemplo: <mark>< tag atributo="valor"> conteúdo < /tag ></mark>.</p>
+
+    <p>Existem desde atributos genéricos, que são utilizados em praticamente todas as tags (como <i>id</i> e <i>class</i>), até atributos específicos de determinadas tags (como <i>type</i>).</p>
+
+    <strong>Exemplos de Tags com Atributos</strong>
+    <ul>
+        <li><strong>< img src="link" ></strong> o atributo <u>src</u> define o link da imagem;</li>
+        <li><strong>< input type="text" ></strong> o atributo <u>type</u> define o tipo do campo.</li>
+    </ul>
 </body>
 </html>
