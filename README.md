@@ -17,3 +17,4 @@ Este projeto faz parte da trilha de *HTML* do bootcamp **NTT DATA Diversidade em
 ## 🔗 Links
 
 * [🔍 Digital Innovation One](https://www.dio.me/)
+* [🔍 Repositório do projeto | DIO](https://github.com/digitalinnovationone/trilha-html-modulo-1)
